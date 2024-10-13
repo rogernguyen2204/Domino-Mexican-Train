@@ -1,0 +1,43 @@
+/**
+ * This class test all the methods that do not related to GUI in project 4 assignment
+ * @author Brian Nguyen - nbn10
+ */
+
+import org.junit.*;
+import static org.junit.Assert.*;
+
+public class Project4Test 
+{
+  /**
+   * Test class LinkedList
+   */
+  public void testLinkedList()
+  {
+  }
+  
+  /**
+   * Test class Domino
+   */
+  public void testDomino()
+  {
+    // Create testing instance for class Domino
+    Domino d1 = new Domino(4,6);
+    
+    // Test getFront() method
+    assertEquals("Incorrect getFront() value", 4, d1.getFront());
+  }
+  
+  /**
+   * Test class DominoTrain
+   */
+  public void testDominoTrain()
+  {
+  }
+  
+  /**
+   * Test class MexicanTrainGame
+   */
+  public void testMexicanTrainGame()
+  {
+  }
+}
